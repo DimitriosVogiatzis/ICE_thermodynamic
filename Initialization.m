@@ -38,8 +38,8 @@ dma_dtheta=zeros(7200,1);          % Air mass alteration        [kg/rad]
 dmf_dtheta=zeros(7200,1);          % Fuel mass alteration       [kg/rad]
 dmt_dtheta=zeros(7200,1);          % Total mass alteration      [kg/rad]
 %
-T=zeros(7200,1);                   % Temperature in Cylinder    [K]
-P=zeros(7200,1);                   % Pressure in Cylinder       [Pa]
+T=ones(7200,1)*T(1);               % Temperature in Cylinder    [K]
+P=ones(7200,1)*P(1);               % Pressure in Cylinder       [Pa]
 
 Po=zeros(7200,1);                  % Pressure without Combustion[Pa]
 v_dQ=zeros(7200,1);                % Thermal Losses variable    [Pa]

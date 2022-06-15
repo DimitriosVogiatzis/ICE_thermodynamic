@@ -33,7 +33,7 @@ TDC=3600-(3880-3600);
 % Valves Geometry Input
 d_in=0.027;                           % Inlet Valve Diameter    [m]
 d_ex=0.024;                           % Outlet Valve Diameter   [m]
-max_lift=0.008;                       %  Max Valve Lift         [m]
+max_lift=0.008;                       % Max Valve Lift         [m]
 %% Boundary Conditions Input
 %
 Pex_Pin=1.05;                         % Pex/Pi Ratio            [-]
@@ -42,14 +42,14 @@ Twall=450;                            % Wall Temperature        [K]
 LHV = 43400000;                       % Diesel Lower Cal. Value [J/kg]
 m1=1.8;                               % Form Parameter          [-]
 m2=0.85;                              % Form Parameter          [-]
-df1=55;                              % Combustion duration 1   [o]
-df2=450;                               % Combustion duration 2   [o]
+df1=55;                               % Combustion duration 1   [o]
+df2=450;                              % Combustion duration 2   [o]
 x=0.17;                               % Premix Bunt Fuel Ratio  [-]
-f_fb=TDC-200;                          % First Injection Angle   [o]
+f_fb=TDC-200;                         % First Injection Angle   [o]
 cu_cm=1.7;                            % Inlet Vorticity Coeff.  [-]
 REFN=2000;                            % Reference N             [rpm]
 REFbmep=6;                            % Reference bmep          [bar]
-fbb2_fbb1=20;                          % Ignition difference     [o]
+fbb2_fbb1=20;                         % Ignition difference     [o]
 %
 C1_ex=6.18+0.417*cu_cm;               % Intake-Exhaust Mass C1  [-]
 C1_ce=2.28+0.308*cu_cm;               % Compr.-Expansion C1     [-]
@@ -57,28 +57,59 @@ C2=0.00324;                           % Combustion C2           [-]
 %
 %% Operating Point Choice
 %
-choice = questdlg('Please choose operating point to calculate (N/bmep/Pin/Tin)', ...
-    'Operating Point', '2000/5/1.85/345','4000/6/2.08/362','2500/4/1.9/347','2000/5/1.85/345');
-%
-switch choice
-    case '2000/5/1.85/345'
-        N=2000;                       % Revolutions per minute  [rpm]
-        bmep=5;                       % Brake Mean Eff. Pressure[bar]
-        Pin=185000;                   % Intake Pressure         [Pa]
-        Tin=345;                      % Intake Teperature       [K]
-        Uin=246725;                   % Intake Internal Energy  [J/kg]
-    case '4000/6/2.08/362'
-        N=4000;                       % Revolutions per minute  [rpm]
-        bmep=6;                       % Brake Mean Eff. Pressure[bar]
-        Pin=208000;                   % Intake Pressure         [Pa]
-        Tin=362;                      % Intake Teperature       [K]
-        Uin=258931;                   % Intake Internal Energy  [J/kg]
-    case '2500/4/1.9/347'
-        N=2500;                       % Revolutions per minute  [rpm]
-        bmep=4;                       % Brake Mean Eff. Pressure[bar]
-        Pin=190000;                   % Intake Pressure         [Pa]
-        Tin=347;                      % Intake Teperature       [K]
-        Uin=248105;                   % Intake Internal Energy  [J/kg]
+choice1 = questdlg('Please choose operating point to calculate (N/bmep/Pin/Tin)', ...
+    'Operating Point', 'Predefined','New point','Predefined');
+switch choice1
+    case 'Predefined'
+        choice = questdlg('Please choose among the 3 pre-calibrated operating points (N/bmep/Pin/Tin)', ...
+            'Operating Point', '2000/5/1.85/345','4000/6/2.08/362','2500/4/1.9/347','2000/5/1.85/345');
+        %
+        switch choice
+            case '2000/5/1.85/345'
+                N=2000;                       % Revolutions per minute  [rpm]
+                bmep=5;                       % Brake Mean Eff. Pressure[bar]
+                Pin=185000;                   % Intake Pressure         [Pa]
+                Tin=345;                      % Intake Teperature       [K]
+                Uin=246725;                   % Intake Internal Energy  [J/kg]
+                lambda=2.1;                   % Calibrated Assumption 1
+                P(1)=Pin*0.9409;              % Calibrated Assumption 2  
+                T(1)=448.;                    % Calibrated Assumption 3
+                Psoc=1.2282*Pin;              % Calibrated Assumption 4
+                Tsoc=390.7929;                % Calibrated Assumption 5   
+            case '4000/6/2.08/362'
+                N=4000;                       % Revolutions per minute  [rpm]
+                bmep=6;                       % Brake Mean Eff. Pressure[bar]
+                Pin=208000;                   % Intake Pressure         [Pa]
+                Tin=362;                      % Intake Teperature       [K]
+                Uin=258931;                   % Intake Internal Energy  [J/kg]
+                lambda=1.815;                 % Calibrated Assumption 1
+                P(1)=Pin*0.82755;             % Calibrated Assumption 2  
+                T(1)=476.011;                 % Calibrated Assumption 3
+                Psoc=1.2493*Pin;              % Calibrated Assumption 4
+                Tsoc=421.9014;                % Calibrated Assumption 5 
+            case '2500/4/1.9/347'
+                N=2500;                       % Revolutions per minute  [rpm]
+                bmep=4;                       % Brake Mean Eff. Pressure[bar]
+                Pin=190000;                   % Intake Pressure         [Pa]
+                Tin=347;                      % Intake Teperature       [K]
+                Uin=248105;                   % Intake Internal Energy  [J/kg]
+                lambda=2.542;                 % Calibrated Assumption 1
+                P(1)=Pin*0.93;                % Calibrated Assumption 2  
+                T(1)=476;                     % Calibrated Assumption 3
+                Psoc=1.2365*Pin;              % Calibrated Assumption 4
+                Tsoc=397.235;                 % Calibrated Assumption 5        
+        end
+    case 'New point'
+                N=input('give speed(rpm):');                                  % Revolutions per minute  [rpm]
+                bmep=input('give bmep(bar):');                                % Brake Mean Eff. Pressure[bar]
+                Pin=input('give intake plenum pressure(Pa):');                % Intake Pressure         [Pa]
+                Tin=input('give intake plenum temperature(K):');              % Intake Teperature       [K]
+                Uin=input('give intake plenum internal energy(J/kg):');       % Intake Internal Energy  [J/kg]
+                lambda=input('give an assumption for lambda:');                                      % Calibrated Assumption 1
+                P(1)=input('give an assumption for cylinder pressure at starting of loop:');         % Calibrated Assumption 2  
+                T(1)=input('give an assumption for cylinder temperature at starting of loop:');      % Calibrated Assumption 3
+                Psoc=input('give an assumption for cylinder pressure at start of compression:');     % Calibrated Assumption 4
+                Tsoc=input('give an assumption for cylinder temperature at start of compression:');  % Calibrated Assumption 5
 end
 %
 dens_in=Pin/(287*Tin);                % Intake Density          [kg/m^3]
