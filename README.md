@@ -12,11 +12,13 @@ This models simulates:
 while assuming constant steady-state conditions at the intake and exhaust volumes correspondingly - no pressure waves and resonance effects.
 
 How to run the model:
-1. Open Data_Input.m and set all input data of geometries, coefficients, boundary conditions. 
-2. In Data_Input.m set your operational point [N,bmep,Pin,Tin,Uin] or select one of the 3 predefined points.
-3. Run the MAIN.m for solving one full thermodynamic cycle of the point selected. 
-4. 
-5. Run the plotter for results visualisation.
+  1. In Data_Input.m set all input data of geometries, coefficients and boundary conditions. 
+  2. In Data_Input.m select your operational point out of the 3 predefined points or select a new one [N,bmep,Pin,Tin,Uin].
+  3. In case of a new point selected, make 5 assumptions of initial conditions for: air-fuel ratio "λ", Cylinder Pressure at start of the loop "P(1)", Cylinder Temperature at start of the loop "T(1)", Cylinder Pressure at start of compression "P(StartofCompression)" and Cylinder Temperature at start of compression "T(StartofCompression)"
+  5. Run the MAIN.m for solving one full thermodynamic cycle of the point selected. 
+  6. Check the residual errors of ΔΤ(Κ), Δbmep(bar), ΔP(Pa)
+  7. Change the 5 assumptions and run again if the errors are bigger that 2%.
+  8. Run the plotter for in cylinder results visualisation.
 
 The models solves with a timestep of 0.1 crank-angle degrees one cycle of 720 ca degrees. 
 
