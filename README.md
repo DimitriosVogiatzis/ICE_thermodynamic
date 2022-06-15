@@ -11,6 +11,12 @@ This models simulates:
   3. the heat transfer of the cylinder chamber to the cylinder sleeves - walls
 while assuming constant steady-state conditions at the intake and exhaust volumes correspondingly - no pressure waves and resonance effects.
 
+How to run the model:
+1. Open Data_Input.m and set all input data of geometries, coefficients, boundary conditions. 
+2. In Data_Input.m set your operational point [N,bmep,Pin,Tin,Uin] or select one of the 3 predefined points.
+3. Run the MAIN.m for solving one full thermodynamic cycle of the point selected. 
+4. 
+5. Run the plotter for results visualisation.
+
 The models solves with a timestep of 0.1 crank-angle degrees one cycle of 720 ca degrees. 
-Engine Data:
 
