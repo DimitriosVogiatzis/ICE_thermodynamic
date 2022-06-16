@@ -26,5 +26,5 @@ How to run the model:
   4. Run the MAIN.m for solving one full thermodynamic cycle of the point selected. 
   5. Check the residual errors of ΔΤ(Κ) or T(1)-T(7200), Δbmep(bar), ΔP(Pa) or P(1)-P(7200)
   6. Change the 5 assumptions and run again if errors are bigger that 2%.
-  7. Run the plotter for in cylinder results visualisation.
+  7. Run the plotter for in-cylinder results visualisation.
 
