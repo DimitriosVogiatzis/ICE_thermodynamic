@@ -13,14 +13,6 @@ while assuming constant steady-state conditions at the intake and exhaust volume
 
 The model calculates all in-cylinder values vs crank-angle but also the thermodynamic efficiency, the volumetric efficiency, the indicated efficiency and pressure and the brake specific fuel consumption.
 
-Model description:
-The models solves with a timestep of 0.1 crank-angle degrees one cycle of 720 ca degrees. 
-The calculation starts with the closing of the exhaust valve, where we have clean intake flow and ends up with the end of valve overlap duration.In every point of operation, five assumptions have to be made. 
-These are for air-fuel ratio "λ", Cylinder Pressure at start of the loop "P(1)", Cylinder Temperature at start of the loop "T(1)", Cylinder Pressure at start of compression "P(StartofCompression)" and Cylinder Temperature at start of compression "T(StartofCompression)". 
-Based on the last two assumptions, the mass of residual gas inside the cylinder is calculated. Moreover, assuming that the fuel mass inside the cylinder at the closing of intake is zero, we know the air mass and combining the assumed λ we know how much fuel we have to inject. 
-From all these values, we assume the rest of values:
-U(1), Dens(1), H(1), m_air(1), m_fuel(1), m_tot(1), dU/dT(1), Cp(1), Cv(1), k(1) 
-
 How to run the model:
   1. In Data_Input.m set all input data of geometries, coefficients and boundary conditions. 
   2. In Data_Input.m select your operational point out of the 3 predefined points or select a new one [N,bmep,Pin,Tin,Uin], where in=constant steady state intake plenum conditions
@@ -29,4 +21,3 @@ How to run the model:
   5. Check the residual errors of ΔΤ(Κ) or T(1)-T(7200), Δbmep(bar), ΔP(Pa) or P(1)-P(7200)
   6. Change the 5 assumptions and run again if errors are bigger that 2%.
   7. Run the plotter for in-cylinder result visualisation.
-
