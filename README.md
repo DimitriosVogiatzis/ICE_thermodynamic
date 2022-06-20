@@ -46,5 +46,5 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 ## Copyrights
 
 
->(C) 2019,Dimitrios Vogiatzis<br />
+>(C) 2022,Dimitrios Vogiatzis<br />
 >jimmyvog@gmail.com
