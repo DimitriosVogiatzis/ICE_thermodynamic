@@ -39,10 +39,10 @@ See 3rdPointResults.pdf for the results of the 3rd predefined engine point.
 This work is done as an Academic project for Aristotle University of Thessaloniki, Mechanical Engineering Department, Laboratory of Applied Thermodynamics and the course of Advanced Internal Combustion Engines of Pr. Grigorios Koltsakis. 
 
 ## Contributors:
-1. [Dimitrios Vogiatzis], Dipl. Eng, PhD Candidate
-2. [Christos Nixarlidis], Dipl. Eng, PhD Candidate
-3. [Nikos Karakioulaxis], Dipl. Eng,
-4. [Emmanouil Alexiou], Dipl. Eng, PhD Candidate, 
+1. [Dimitrios Vogiatzis]
+2. [Christos Nixarlidis]
+3. [Nikos Karakioulaxis]
+4. [Emmanouil Alexiou]
 
 ## Copyrights
 [Creative Commons]
