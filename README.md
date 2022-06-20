@@ -27,3 +27,6 @@ The model calculates all in-cylinder values vs crank-angle but also the thermody
   5. Check the residual errors of ΔΤ(Κ) or T(1)-T(7200), Δbmep(bar), ΔP(Pa) or P(1)-P(7200)
   6. Change the 5 assumptions and run again if errors are bigger that 2%.
   7. Run the plotter for in-cylinder result visualisation.
+
+## Results
+See 3rdPointResults.pdf for the results of the 3rd predefined engine point.
