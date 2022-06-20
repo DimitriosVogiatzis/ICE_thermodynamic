@@ -11,6 +11,8 @@ This models simulates:
   3. the heat transfer of the cylinder chamber to the cylinder sleeves - walls
 while assuming constant steady-state conditions at the intake and exhaust volumes correspondingly - no pressure waves and resonance effects.
 
+The model calculates all in-cylinder values vs crank-angle but also the thermodynamic efficiency, the volumetric efficiency, the indicated efficiency and pressure and the brake specific fuel consumption.
+
 Model description:
 The models solves with a timestep of 0.1 crank-angle degrees one cycle of 720 ca degrees. 
 The calculation starts with the closing of the exhaust valve, where we have clean intake flow and ends up with the end of valve overlap duration.In every point of operation, five assumptions have to be made. 
@@ -26,5 +28,5 @@ How to run the model:
   4. Run the MAIN.m for solving one full thermodynamic cycle of the point selected. 
   5. Check the residual errors of ΔΤ(Κ) or T(1)-T(7200), Δbmep(bar), ΔP(Pa) or P(1)-P(7200)
   6. Change the 5 assumptions and run again if errors are bigger that 2%.
-  7. Run the plotter for in-cylinder results visualisation.
+  7. Run the plotter for in-cylinder result visualisation.
 
