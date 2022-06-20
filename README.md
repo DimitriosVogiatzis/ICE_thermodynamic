@@ -1,5 +1,3 @@
-![Matlab] 
-
 ## ICE_thermodynamic
 A filling-evacuation model of a direct injection diesel engine is solved for different operation points. 
 ![image](https://user-images.githubusercontent.com/65401171/174573308-39ff2a84-bfaf-4225-8cd9-351800f274b7.png)
