@@ -49,6 +49,11 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 <br />
 <br />
 
+## Licenses
+[Creative Commons Licence]
+<br />
+<br />
+
 >(C) 2022,Dimitrios Vogiatzis<br />
 >jimmyvog@gmail.com
 
@@ -56,6 +61,7 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 [//]: # "links"
 
 [Creative Commons]: <https://creativecommons.org/licenses/by-nc-nd/4.0/>
+[Creative Commons Licence]: <https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode>
 [Dimitrios Vogiatzis]: <http://www.linkedin.com/in/dimitrios-vogiatzis95>
 [Christos Nixarlidis]: <https://www.linkedin.com/in/christos-nixarlidis-a37a81130>
 [Nikos Karakioulaxis]: <https://www.linkedin.com/in/nikos-karakioulachis-35007a107>
