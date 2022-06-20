@@ -41,7 +41,7 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 ## Contributors:
 1. [Dimitrios Vogiatzis]
 2. [Christos Nixarlidis]
-3. [Nikos Karakioulaxis]
+3. [Nikos Karakioulachis]
 4. [Emmanouil Alexiou]
 
 ## Copyrights
@@ -63,5 +63,5 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 [Creative Commons Licence]: <https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode>
 [Dimitrios Vogiatzis]: <http://www.linkedin.com/in/dimitrios-vogiatzis95>
 [Christos Nixarlidis]: <https://www.linkedin.com/in/christos-nixarlidis-a37a81130>
-[Nikos Karakioulaxis]: <https://www.linkedin.com/in/nikos-karakioulachis-35007a107>
+[Nikos Karakioulachis]: <https://www.linkedin.com/in/nikos-karakioulachis-35007a107>
 [Emmanouil Alexiou]: <https://www.linkedin.com/in/emmanouil-alexiou-lfmt>
