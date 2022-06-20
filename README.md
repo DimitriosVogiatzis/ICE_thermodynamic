@@ -35,5 +35,13 @@ See ModelExplanation.pdf for a step-by-step guide through the creation of the si
 See 3rdPointResults.pdf for the results of the 3rd predefined engine point.
 
 ## References - Aknowledgements
+
 This work is done as an Academic project for Aristotle University of Thessaloniki, Mechanical Engineering Department, Laboratory of Applied Thermodynamics and the course of Advanced Internal Combustion Engines of Pr. Grigorios Koltsakis. 
-All equations used for the model creation are found on 
+
+## Contributors:
+1. Dimitrios Vogiatzis, Dipl. Eng, PhD Candidate, www.linkedin.com/in/dimitrios-vogiatzis95
+2. Christos Nixarlidis, Dipl. Eng, PhD Candidate, https://www.linkedin.com/in/christos-nixarlidis-a37a81130
+3. Nikos Karakioulaxis, Dipl. Eng, https://www.linkedin.com/in/nikos-karakioulachis-35007a107 
+
+## Copyrights
+
