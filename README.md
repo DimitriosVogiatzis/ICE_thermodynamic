@@ -42,6 +42,7 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 1. Dimitrios Vogiatzis, Dipl. Eng, PhD Candidate, www.linkedin.com/in/dimitrios-vogiatzis95
 2. Christos Nixarlidis, Dipl. Eng, PhD Candidate, https://www.linkedin.com/in/christos-nixarlidis-a37a81130
 3. Nikos Karakioulaxis, Dipl. Eng, https://www.linkedin.com/in/nikos-karakioulachis-35007a107 
+4. Emmanouil Alexiou, Dipl. Eng, PhD Candidate, https://www.linkedin.com/in/emmanouil-alexiou-lfmt
 
 ## Copyrights
 
