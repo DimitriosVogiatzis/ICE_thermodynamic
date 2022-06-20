@@ -19,6 +19,9 @@ while assuming constant steady-state conditions at the intake and exhaust volume
 
 The model calculates all in-cylinder values vs crank-angle but also the thermodynamic efficiency, the volumetric efficiency, the indicated efficiency and pressure and the brake specific fuel consumption.
 
+## Detailed model explanation
+See ModelExplanation.pdf for a step-by-step guide through the creation of the simulation model and the equations being solved.
+
 ## How to run the model:
   1. In Data_Input.m set all input data of geometries, coefficients and boundary conditions. 
   2. In Data_Input.m select your operational point out of the 3 predefined points or select a new one [N,bmep,Pin,Tin,Uin], where in=constant steady state intake plenum conditions
@@ -30,3 +33,7 @@ The model calculates all in-cylinder values vs crank-angle but also the thermody
 
 ## Results
 See 3rdPointResults.pdf for the results of the 3rd predefined engine point.
+
+## References - Aknowledgements
+This work is done as an Academic project for Aristotle University of Thessaloniki, Mechanical Engineering Department, Laboratory of Applied Thermodynamics and the course of Advanced Internal Combustion Engines of Pr. Grigorios Koltsakis. 
+All equations used for the model creation are found on 
