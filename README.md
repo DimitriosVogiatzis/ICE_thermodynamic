@@ -36,7 +36,7 @@ See 3rdPointResults.pdf for the results of the 3rd predefined engine point.
 
 ## References - Aknowledgements
 
-This work is done as an Academic project for Aristotle University of Thessaloniki, Mechanical Engineering Department, Laboratory of Applied Thermodynamics and the course of Advanced Internal Combustion Engines of Pr. Grigorios Koltsakis. 
+This work is done as an Academic project for Aristotle University of Thessaloniki, Mechanical Engineering Department, [Laboratory of Applied Thermodynamics] and the course of Advanced Internal Combustion Engines of [Pr. Grigorios Koltsakis]. 
 
 ## Contributors:
 1. [Dimitrios Vogiatzis]
@@ -65,3 +65,5 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 [Christos Nixarlidis]: <https://www.linkedin.com/in/christos-nixarlidis-a37a81130>
 [Nikos Karakioulachis]: <https://www.linkedin.com/in/nikos-karakioulachis-35007a107>
 [Emmanouil Alexiou]: <https://www.linkedin.com/in/emmanouil-alexiou-lfmt>
+[Laboratory of Applied Thermodynamics]: <https://lat.eng.auth.gr/>
+[Pr. Grigorios Koltsakis]: <https://www.linkedin.com/in/grigorios-koltsakis-0a21b03a>
