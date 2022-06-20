@@ -42,7 +42,6 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 1. [Dimitrios Vogiatzis]
 2. [Christos Nixarlidis]
 3. [Nikos Karakioulachis]
-4. [Emmanouil Alexiou]
 
 ## Copyrights
 [Creative Commons]
@@ -64,6 +63,5 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 [Dimitrios Vogiatzis]: <http://www.linkedin.com/in/dimitrios-vogiatzis95>
 [Christos Nixarlidis]: <https://www.linkedin.com/in/christos-nixarlidis-a37a81130>
 [Nikos Karakioulachis]: <https://www.linkedin.com/in/nikos-karakioulachis-35007a107>
-[Emmanouil Alexiou]: <https://www.linkedin.com/in/emmanouil-alexiou-lfmt>
 [Laboratory of Applied Thermodynamics]: <https://lat.eng.auth.gr/>
 [Pr. Grigorios Koltsakis]: <https://www.linkedin.com/in/grigorios-koltsakis-0a21b03a>
