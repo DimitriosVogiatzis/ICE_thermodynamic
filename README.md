@@ -48,8 +48,7 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 [Creative Commons]
 <br />
 <br />
-
-## Licenses
+## License
 [Creative Commons Licence]
 <br />
 <br />
