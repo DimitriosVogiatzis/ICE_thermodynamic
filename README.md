@@ -1,4 +1,4 @@
-# ICE_thermodynamic
+## ICE_thermodynamic
 A filling-evacuation model of a direct injection diesel engine is solved for different operation points. 
 ![image](https://user-images.githubusercontent.com/65401171/174573308-39ff2a84-bfaf-4225-8cd9-351800f274b7.png)
 
@@ -14,7 +14,7 @@ while assuming constant steady-state conditions at the intake and exhaust volume
 
 The model calculates all in-cylinder values vs crank-angle but also the thermodynamic efficiency, the volumetric efficiency, the indicated efficiency and pressure and the brake specific fuel consumption.
 
-How to run the model:
+## How to run the model:
   1. In Data_Input.m set all input data of geometries, coefficients and boundary conditions. 
   2. In Data_Input.m select your operational point out of the 3 predefined points or select a new one [N,bmep,Pin,Tin,Uin], where in=constant steady state intake plenum conditions
   3. In case of a new point selected, make 5 assumptions of initial conditions for: air-fuel ratio "λ", Cylinder Pressure at start of the loop "P(1)", Cylinder Temperature at start of the loop "T(1)", Cylinder Pressure at start of compression "P(StartofCompression)" and Cylinder Temperature at start of compression "T(StartofCompression)"
