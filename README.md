@@ -55,4 +55,4 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 
 [//]: # "links"
 
-[Creative Commons]: <https://img.shields.io/conda/v/mattasa/mattflow](https://creativecommons.org/>
+[Creative Commons]: [<https://img.shields.io/conda/v/mattasa/mattflow](https://creativecommons.org/>](https://creativecommons.org/)
