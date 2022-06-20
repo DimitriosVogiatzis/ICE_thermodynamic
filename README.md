@@ -1,5 +1,6 @@
 # ICE_thermodynamic
 A filling-evacuation model of a direct injection diesel engine is solved for different operation points. 
+![image](https://user-images.githubusercontent.com/65401171/174572941-3787a68d-5a29-407a-9f30-5463af4edf60.png)
 
 A mathematical model of the thermodynamic cycle of a direct injection diesel internal combustion engine is presented.
 The thermodynamic cycle contains the intake phase, the fuel injection, the combustion phase and the exhaust phase 
