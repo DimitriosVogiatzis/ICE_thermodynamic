@@ -6,6 +6,7 @@ A filling-evacuation model of a direct injection diesel engine is solved for dif
 | -------------------- | --------- |
 | matlab2018 or greater | W8 or greater |
 
+## Model description
 A simulation model of the thermodynamic cycle of a direct injection diesel internal combustion engine is presented.
 The thermodynamic cycle contains the intake phase, the fuel injection, the combustion phase and the exhaust phase 
 by taking into consideration the intake and exhaust overlap. 
