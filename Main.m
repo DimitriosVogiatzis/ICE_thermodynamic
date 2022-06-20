@@ -42,7 +42,8 @@ bsfc=3600/(eff/100*LHV)*10^6;
 r1=(T(7200)+dT_dtheta(7200)*deg2rad(0.1))-T(1);
 r2=(bmep_imp-bmep);
 r3=P(7200)-P(1);
-disp("Residual error: Temperature(K) Bmep(bar) Pressure(P)")
-disp(num2str([r1 r2 r3]));
+r4=R(7200)-R(1);
+disp("Residual error: Temperature(K) Bmep(bar) Pressure(P) Gas Constant (J/kg*K)")
+disp(num2str([r1 r2 r3 r4]));
 
 
