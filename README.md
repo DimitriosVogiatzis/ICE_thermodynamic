@@ -45,7 +45,14 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 4. Emmanouil Alexiou, Dipl. Eng, PhD Candidate, https://www.linkedin.com/in/emmanouil-alexiou-lfmt
 
 ## Copyrights
-
+[Creative Commons]
+<br />
+<br />
 
 >(C) 2022,Dimitrios Vogiatzis<br />
 >jimmyvog@gmail.com
+
+
+[//]: # "links"
+
+[Creative Commons]: <https://img.shields.io/conda/v/mattasa/mattflow](https://creativecommons.org/>
