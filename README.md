@@ -26,7 +26,7 @@ See ModelExplanation.pdf for a step-by-step guide through the creation of the si
   1. In Data_Input.m set all input data of geometries, coefficients and boundary conditions. 
   2. In Data_Input.m select your operational point out of the 3 predefined points or select a new one [N,bmep,Pin,Tin,Uin], where in=constant steady state intake plenum conditions
   3. In case of a new point selected, make 5 assumptions of initial conditions for: air-fuel ratio "λ", Cylinder Pressure at start of the loop "P(1)", Cylinder Temperature at start of the loop "T(1)", Cylinder Pressure at start of compression "P(StartofCompression)" and Cylinder Temperature at start of compression "T(StartofCompression)"
-  4. Run the MAIN.m for solving one full thermodynamic cycle of the point selected. 
+  4. Run the @MAIN.m for solving one full thermodynamic cycle of the point selected. 
   5. Check the residual errors of ΔΤ(Κ) or T(1)-T(7200), Δbmep(bar), ΔP(Pa) or P(1)-P(7200)
   6. Change the 5 assumptions and run again if errors are bigger that 2%.
   7. Run the plotter for in-cylinder result visualisation.
