@@ -56,7 +56,7 @@ This work is done as an Academic project for Aristotle University of Thessalonik
 [//]: # "links"
 
 [Creative Commons]: <https://creativecommons.org/>
-[Dimitrios Vogiatzis]: <www.linkedin.com/in/dimitrios-vogiatzis95>
+[Dimitrios Vogiatzis]: <http://www.linkedin.com/in/dimitrios-vogiatzis95>
 [Christos Nixarlidis]: <https://www.linkedin.com/in/christos-nixarlidis-a37a81130>
 [Nikos Karakioulaxis]: <https://www.linkedin.com/in/nikos-karakioulachis-35007a107>
 [Emmanouil Alexiou]: <https://www.linkedin.com/in/emmanouil-alexiou-lfmt>
